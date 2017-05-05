@@ -1,12 +1,14 @@
-# merlinski
-Project merlin ski
-Step to run CI on localhost
+Example PHP project
+===================
 
-application/views/pages ==> All the pages we need work on frontend part, for each page will create 1 file php, as example I created file admin_homepage.php for admin homepage. https://asiantechhub.atlassian.net/browse/MERLINSKI-41
+The purpose of this repository is to show how to use Travis CI to do
+continuous integration with a PHP project.
 
+Here is a sample status icon showing the state of the master branch.
 
-application/views/templates ==> All module, left menu,etc... need use on many pages, will add in here.
+[![Build Status](https://travis-ci.org/travis-ci-examples/php.svg?branch=master)](https://travis-ci.org/travis-ci-examples/php)
 
-application/views/scss ==> File scss will put in here, I will create 2 file for both of you, 1_template.scss, 2_template.scss, when work just do in your file.
+In order to run this project just fork it on github.com and then [enable](http://about.travis-ci.org/docs/user/getting-started/)
+your fork on your [travis-ci profile](http://travis-ci.org/profile). Every push will then trigger a new build on Travis CI.
 
-application/views/assets/images ==> Images on site will put in here.
+(Don't forget to update the badge url in the README to point to your own travis project.)
