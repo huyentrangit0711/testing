@@ -35,7 +35,7 @@
             <?php $this->load->view('templates/admin_leftmenu');?>
         </div>
         <div class="col-sm-9">
-            <?php $this->load->view($subview);?>
+            <?php $this->load->view($subview);    ?>
         </div>
     </div>
 </div>
